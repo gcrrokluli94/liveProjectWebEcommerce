@@ -1,0 +1,11 @@
+{{>header}}
+<h1>Mustache with Spring Boot</h1>
+<div> <b>Cake List </b></div>
+{{#cakeList}}
+    <b> Cake ID: </b>{{cakeId}}
+    <b> Cake name: </b>{{cakeName}}
+    <b> Price: </b>{{price}}
+    <br>
+    <hr>
+{{/cakeList}}
+{{>footer}}
